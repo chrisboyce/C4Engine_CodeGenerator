@@ -1,0 +1,1 @@
+controller_type_name(controllerName) ::= "kController<controllerName>"

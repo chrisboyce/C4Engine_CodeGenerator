@@ -6,11 +6,17 @@ class_header_file(className,includeName,parentClass,enumType) ::= <<
 namespace C4{
 	class <className> : public <parentClass>{
 	
-	<if(enumType)>
-	enum {
-		<enumType>
+	
+		<if(enumType)>
+		enum {
+			<enumType>
+		};
+		<endif>
+		public:
+
+		<className>();
+		~<className>();
 	};
-	<endif>
 }
->>
 #endif
+>>

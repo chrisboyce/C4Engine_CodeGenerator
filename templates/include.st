@@ -1,1 +1,1 @@
-include(filename) ::= "#include '<filename>'"
+include(filename) ::= "#include \"<filename>.h\""

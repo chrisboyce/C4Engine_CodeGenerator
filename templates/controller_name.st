@@ -1,0 +1,1 @@
+controller_name(controllerName) ::= "<controllerName>Controller"
